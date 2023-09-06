@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         loadData()
 
-        sharedPreferences = getSharedPreferences("myp", Context.MODE_PRIVATE)
+
 
 
         binding.btButton.setOnClickListener {
